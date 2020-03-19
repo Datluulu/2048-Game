@@ -1,0 +1,36 @@
+C:\Users\Рамиль\source\repos\game2048\game2048\bin\Debug\game2048.exe.config
+C:\Users\Рамиль\source\repos\game2048\game2048\bin\Debug\game2048.exe
+C:\Users\Рамиль\source\repos\game2048\game2048\bin\Debug\game2048.pdb
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.Properties.Resources.resources
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.csproj.GenerateResource.cache
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.csproj.CoreCompileInputs.cache
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.exe
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.pdb
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.Menu.resources
+C:\Users\Рамиль\source\repos\game2048\game2048\obj\Debug\game2048.PlayGround.resources
+C:\Users\Рамиль\source\repos\Game2048\game2048\obj\Debug\game2048.Endgame.resources
+C:\Users\Рамиль\source\repos\Game2048\game2048\obj\Debug\game2048.csprojAssemblyReference.cache
+D:\2048 VS Project\game2048\bin\Debug\game2048.exe.config
+D:\2048 VS Project\game2048\bin\Debug\game2048.exe
+D:\2048 VS Project\game2048\bin\Debug\game2048.pdb
+D:\2048 VS Project\game2048\obj\Debug\game2048.csprojAssemblyReference.cache
+D:\2048 VS Project\game2048\obj\Debug\game2048.Endgame.resources
+D:\2048 VS Project\game2048\obj\Debug\game2048.Menu.resources
+D:\2048 VS Project\game2048\obj\Debug\game2048.PlayGround.resources
+D:\2048 VS Project\game2048\obj\Debug\game2048.Properties.Resources.resources
+D:\2048 VS Project\game2048\obj\Debug\game2048.csproj.GenerateResource.cache
+D:\2048 VS Project\game2048\obj\Debug\game2048.csproj.CoreCompileInputs.cache
+D:\2048 VS Project\game2048\obj\Debug\game2048.exe
+D:\2048 VS Project\game2048\obj\Debug\game2048.pdb
+D:\game2048\game2048\bin\Debug\game2048.exe.config
+D:\game2048\game2048\bin\Debug\game2048.exe
+D:\game2048\game2048\bin\Debug\game2048.pdb
+D:\game2048\game2048\obj\Debug\game2048.csprojAssemblyReference.cache
+D:\game2048\game2048\obj\Debug\game2048.Endgame.resources
+D:\game2048\game2048\obj\Debug\game2048.Menu.resources
+D:\game2048\game2048\obj\Debug\game2048.PlayGround.resources
+D:\game2048\game2048\obj\Debug\game2048.Properties.Resources.resources
+D:\game2048\game2048\obj\Debug\game2048.csproj.GenerateResource.cache
+D:\game2048\game2048\obj\Debug\game2048.csproj.CoreCompileInputs.cache
+D:\game2048\game2048\obj\Debug\game2048.exe
+D:\game2048\game2048\obj\Debug\game2048.pdb
