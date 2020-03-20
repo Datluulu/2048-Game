@@ -276,8 +276,8 @@ namespace game2048 {
         }
 
         // Логика передвижения и слияния плиток
-        void MoveTiles(int i, int j, ref int x, ref bool y, ref bool flag, ref bool checkSound1, ref bool checkSound2, ref bool move) {
-
+        void MoveTiles(int i, int j, ref int x, ref bool y, ref bool flag, 
+                       ref bool checkSound1, ref bool checkSound2, ref bool move) {
             // Передвижение ячеек
             if (game[i, j] > 0 && x < 0 && game[i, j] != x) {
                 x = game[i, j];
@@ -285,7 +285,6 @@ namespace game2048 {
                 flag = true;
                 checkSound1 = true;
             }
-
             // Слияние ячеек
             else if (!y && !Merged[i, j] && game[i, j] > 0 && game[i, j] == x) {
                 x *= 2;
