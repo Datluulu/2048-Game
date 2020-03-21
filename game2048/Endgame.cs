@@ -12,8 +12,7 @@ using System.Media;
 namespace game2048 {
     public partial class Endgame : Form {
 
-        public static bool gameRefresh = false;  // Запрет на закрытие окна
-
+        public static bool gameRefresh = false;                                // Запрет на закрытие окна
         Menu m = new Menu();
         PlayGround pg;
         SoundPlayer sp = new SoundPlayer(@"game_sounds\SimpleSound.wav");
