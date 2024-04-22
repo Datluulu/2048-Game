@@ -35,7 +35,7 @@ namespace game2048 {
 
             // Инициализация лучшего результата
             using (StreamReader sr = new StreamReader(@"bestscore_data\BestScore.txt"))
-                bestScore.Text = "Лучший счет: " + sr.ReadToEnd();
+                bestScore.Text = "Best score: " + sr.ReadToEnd();
 
             // Присваивание всем ячейкам значения -1
             for (int i = 0; i < 4; i++)
@@ -194,13 +194,13 @@ namespace game2048 {
                     max = sw.ReadToEnd();
                 }
 
-                textScore.Text = "Текущий счет: \t" + Convert.ToString(summ);
+                textScore.Text = "Best score: \t" + Convert.ToString(summ);
 
                 // Перезапись лучшего результата
                 if (summ > Int32.Parse(max)) {
                     using (StreamWriter sw = new StreamWriter(@"bestscore_data\BestScore.txt", false))
                         sw.WriteLine(summ);
-                    bestScore.Text = "Лучший счет: \t" + Convert.ToString(summ);
+                    bestScore.Text = "Best score: \t" + Convert.ToString(summ);
                 }
 
                 // Обнуление массива, показывающего, произошло ли слияние в ячейке
@@ -326,6 +326,11 @@ namespace game2048 {
         }
 
         private void textScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bestScore_Click(object sender, EventArgs e)
         {
 
         }

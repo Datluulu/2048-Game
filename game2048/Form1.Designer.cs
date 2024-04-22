@@ -60,7 +60,7 @@
             this.soundButton.Location = new System.Drawing.Point(134, 585);
             this.soundButton.Margin = new System.Windows.Forms.Padding(4);
             this.soundButton.Name = "soundButton";
-            this.soundButton.Size = new System.Drawing.Size(393, 73);
+            this.soundButton.Size = new System.Drawing.Size(407, 73);
             this.soundButton.TabIndex = 11;
             this.soundButton.Text = "🔈";
             this.soundButton.UseVisualStyleBackColor = false;
@@ -76,7 +76,7 @@
             this.specButton.Location = new System.Drawing.Point(134, 464);
             this.specButton.Margin = new System.Windows.Forms.Padding(4);
             this.specButton.Name = "specButton";
-            this.specButton.Size = new System.Drawing.Size(393, 73);
+            this.specButton.Size = new System.Drawing.Size(407, 73);
             this.specButton.TabIndex = 10;
             this.specButton.Text = "Rules";
             this.specButton.UseVisualStyleBackColor = false;
@@ -84,9 +84,6 @@
             // 
             // startButton
             // 
-            this.startButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.startButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(173)))), ((int)(((byte)(160)))));
             this.startButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(173)))), ((int)(((byte)(160)))));
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -95,7 +92,7 @@
             this.startButton.Location = new System.Drawing.Point(134, 340);
             this.startButton.Margin = new System.Windows.Forms.Padding(4);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(393, 73);
+            this.startButton.Size = new System.Drawing.Size(407, 73);
             this.startButton.TabIndex = 9;
             this.startButton.Text = "Start the game";
             this.startButton.UseVisualStyleBackColor = true;
@@ -106,7 +103,7 @@
             this.labelMenu.AutoSize = true;
             this.labelMenu.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(110)))), ((int)(((byte)(102)))));
-            this.labelMenu.Location = new System.Drawing.Point(223, 197);
+            this.labelMenu.Location = new System.Drawing.Point(237, 198);
             this.labelMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMenu.Name = "labelMenu";
             this.labelMenu.Size = new System.Drawing.Size(209, 80);

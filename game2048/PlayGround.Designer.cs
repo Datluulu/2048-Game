@@ -283,6 +283,7 @@
             this.bestScore.Size = new System.Drawing.Size(139, 27);
             this.bestScore.TabIndex = 2;
             this.bestScore.Text = "Best score: 0";
+            this.bestScore.Click += new System.EventHandler(this.bestScore_Click);
             // 
             // textScore
             // 
