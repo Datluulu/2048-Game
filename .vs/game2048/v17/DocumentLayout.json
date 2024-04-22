@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dathe\\source\\repos\\2048-Game\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\dathe\\Documents\\win\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|c:\\users\\dathe\\documents\\win\\game2048\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|solutionrelative:game2048\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|c:\\users\\dathe\\documents\\win\\game2048\\playground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|solutionrelative:game2048\\playground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|c:\\users\\dathe\\documents\\win\\game2048\\playground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|solutionrelative:game2048\\playground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|c:\\users\\dathe\\documents\\win\\game2048\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03180A54-2D05-4F63-BC5C-3DF454D2BD5D}|game2048\\game2048.csproj|solutionrelative:game2048\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dathe\\Documents\\win\\game2048\\Form1.cs",
+              "RelativeDocumentMoniker": "game2048\\Form1.cs",
+              "ToolTip": "C:\\Users\\dathe\\Documents\\win\\game2048\\Form1.cs",
+              "RelativeToolTip": "game2048\\Form1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBgAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:16:23.839Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayGround.cs",
+              "DocumentMoniker": "C:\\Users\\dathe\\Documents\\win\\game2048\\PlayGround.cs",
+              "RelativeDocumentMoniker": "game2048\\PlayGround.cs",
+              "ToolTip": "C:\\Users\\dathe\\Documents\\win\\game2048\\PlayGround.cs",
+              "RelativeToolTip": "game2048\\PlayGround.cs",
+              "ViewState": "AQIAADgBAAAAAAAAAAArwEkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:30:11.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -22,6 +62,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayGround.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dathe\\Documents\\win\\game2048\\PlayGround.cs",
+              "RelativeDocumentMoniker": "game2048\\PlayGround.cs",
+              "ToolTip": "C:\\Users\\dathe\\Documents\\win\\game2048\\PlayGround.cs [Design]",
+              "RelativeToolTip": "game2048\\PlayGround.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:16:13.311Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dathe\\Documents\\win\\game2048\\Form1.cs",
+              "RelativeDocumentMoniker": "game2048\\Form1.cs",
+              "ToolTip": "C:\\Users\\dathe\\Documents\\win\\game2048\\Form1.cs [Design]",
+              "RelativeToolTip": "game2048\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:16:11.256Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

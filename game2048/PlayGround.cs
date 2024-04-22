@@ -262,11 +262,11 @@ namespace game2048 {
                     Endgame eg = new Endgame(m, this);
                     if (final) {
                         eg.labelMenu.Location = new Point(97, 23);
-                        eg.labelMenu.Text = "Вы победили!";
+                        eg.labelMenu.Text = "You Win!";
                     }
                     else {
                         eg.labelMenu.Location = new Point(70, 23);
-                        eg.labelMenu.Text = "Игра завершена!";
+                        eg.labelMenu.Text = "Game over!";
                     }
                     while (!game2048.Endgame.gameRefresh)
                         eg.ShowDialog();
@@ -313,6 +313,21 @@ namespace game2048 {
         // При закрытии формы, показать главное меню
         void PlayGround_FormClosing(object sender, FormClosingEventArgs e) {
             m.Show();
+        }
+
+        private void PlayGround_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void target2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textScore_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

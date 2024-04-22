@@ -57,10 +57,10 @@
             this.soundButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.soundButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.soundButton.ForeColor = System.Drawing.SystemColors.Window;
-            this.soundButton.Location = new System.Drawing.Point(189, 587);
+            this.soundButton.Location = new System.Drawing.Point(134, 585);
             this.soundButton.Margin = new System.Windows.Forms.Padding(4);
             this.soundButton.Name = "soundButton";
-            this.soundButton.Size = new System.Drawing.Size(319, 73);
+            this.soundButton.Size = new System.Drawing.Size(393, 73);
             this.soundButton.TabIndex = 11;
             this.soundButton.Text = "🔈";
             this.soundButton.UseVisualStyleBackColor = false;
@@ -73,30 +73,32 @@
             this.specButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.specButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.specButton.ForeColor = System.Drawing.Color.White;
-            this.specButton.Location = new System.Drawing.Point(189, 463);
+            this.specButton.Location = new System.Drawing.Point(134, 464);
             this.specButton.Margin = new System.Windows.Forms.Padding(4);
             this.specButton.Name = "specButton";
-            this.specButton.Size = new System.Drawing.Size(319, 73);
+            this.specButton.Size = new System.Drawing.Size(393, 73);
             this.specButton.TabIndex = 10;
-            this.specButton.Text = "Правила";
+            this.specButton.Text = "Rules";
             this.specButton.UseVisualStyleBackColor = false;
             this.specButton.Click += new System.EventHandler(this.specButton_Click);
             // 
             // startButton
             // 
+            this.startButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.startButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(173)))), ((int)(((byte)(160)))));
             this.startButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(173)))), ((int)(((byte)(160)))));
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.startButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.startButton.ForeColor = System.Drawing.Color.White;
-            this.startButton.Location = new System.Drawing.Point(189, 340);
+            this.startButton.Location = new System.Drawing.Point(134, 340);
             this.startButton.Margin = new System.Windows.Forms.Padding(4);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(319, 73);
+            this.startButton.Size = new System.Drawing.Size(393, 73);
             this.startButton.TabIndex = 9;
             this.startButton.Text = "Start the game";
-            this.startButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.startButton.UseVisualStyleBackColor = false;
+            this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // labelMenu
@@ -124,6 +126,7 @@
             this.Specification.Name = "Specification";
             this.Specification.Size = new System.Drawing.Size(696, 854);
             this.Specification.TabIndex = 1;
+            this.Specification.Paint += new System.Windows.Forms.PaintEventHandler(this.Specification_Paint);
             // 
             // textSpec
             // 
@@ -132,9 +135,9 @@
             this.textSpec.Location = new System.Drawing.Point(32, 154);
             this.textSpec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.textSpec.Name = "textSpec";
-            this.textSpec.Size = new System.Drawing.Size(156, 27);
+            this.textSpec.Size = new System.Drawing.Size(184, 27);
             this.textSpec.TabIndex = 11;
-            this.textSpec.Text = "Правила игры";
+            this.textSpec.Text = "Rules of the game";
             // 
             // backButton
             // 
@@ -148,7 +151,7 @@
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(171, 73);
             this.backButton.TabIndex = 10;
-            this.backButton.Text = "Назад";
+            this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
@@ -157,12 +160,12 @@
             this.labelSpec.AutoSize = true;
             this.labelSpec.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelSpec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(110)))), ((int)(((byte)(102)))));
-            this.labelSpec.Location = new System.Drawing.Point(97, 37);
+            this.labelSpec.Location = new System.Drawing.Point(56, 39);
             this.labelSpec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSpec.Name = "labelSpec";
-            this.labelSpec.Size = new System.Drawing.Size(485, 80);
+            this.labelSpec.Size = new System.Drawing.Size(583, 80);
             this.labelSpec.TabIndex = 9;
-            this.labelSpec.Text = "Правила игры";
+            this.labelSpec.Text = "Rules of the game";
             // 
             // Menu
             // 

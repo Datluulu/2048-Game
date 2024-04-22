@@ -70,174 +70,194 @@
             // target2
             // 
             this.target2.AutoSize = true;
-            this.target2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.target2.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.target2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(120)))), ((int)(((byte)(108)))));
-            this.target2.Location = new System.Drawing.Point(40, 144);
+            this.target2.Location = new System.Drawing.Point(53, 177);
+            this.target2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.target2.Name = "target2";
-            this.target2.Size = new System.Drawing.Size(439, 19);
+            this.target2.Size = new System.Drawing.Size(519, 40);
             this.target2.TabIndex = 56;
-            this.target2.Text = "Объединяйте числа, чтобы дойти до квадратика 2048!";
+            this.target2.Text = "Combine numbers to reach 2048!";
+            this.target2.Click += new System.EventHandler(this.target2_Click);
             // 
             // target1
             // 
             this.target1.BackColor = System.Drawing.Color.DarkGray;
             this.target1.BackgroundImage = global::game2048.Properties.Resources.score_2048;
-            this.target1.Location = new System.Drawing.Point(30, 22);
+            this.target1.Location = new System.Drawing.Point(40, 27);
+            this.target1.Margin = new System.Windows.Forms.Padding(4);
             this.target1.Name = "target1";
-            this.target1.Size = new System.Drawing.Size(100, 100);
+            this.target1.Size = new System.Drawing.Size(133, 123);
             this.target1.TabIndex = 55;
             this.target1.TabStop = false;
             // 
             // cube1
             // 
             this.cube1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube1.Location = new System.Drawing.Point(30, 200);
+            this.cube1.Location = new System.Drawing.Point(40, 246);
+            this.cube1.Margin = new System.Windows.Forms.Padding(4);
             this.cube1.Name = "cube1";
-            this.cube1.Size = new System.Drawing.Size(100, 100);
+            this.cube1.Size = new System.Drawing.Size(133, 123);
             this.cube1.TabIndex = 39;
             this.cube1.TabStop = false;
             // 
             // cube16
             // 
             this.cube16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube16.Location = new System.Drawing.Point(390, 560);
+            this.cube16.Location = new System.Drawing.Point(520, 689);
+            this.cube16.Margin = new System.Windows.Forms.Padding(4);
             this.cube16.Name = "cube16";
-            this.cube16.Size = new System.Drawing.Size(100, 100);
+            this.cube16.Size = new System.Drawing.Size(133, 123);
             this.cube16.TabIndex = 54;
             this.cube16.TabStop = false;
             // 
             // cube15
             // 
             this.cube15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube15.Location = new System.Drawing.Point(270, 560);
+            this.cube15.Location = new System.Drawing.Point(360, 689);
+            this.cube15.Margin = new System.Windows.Forms.Padding(4);
             this.cube15.Name = "cube15";
-            this.cube15.Size = new System.Drawing.Size(100, 100);
+            this.cube15.Size = new System.Drawing.Size(133, 123);
             this.cube15.TabIndex = 53;
             this.cube15.TabStop = false;
             // 
             // cube14
             // 
             this.cube14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube14.Location = new System.Drawing.Point(150, 560);
+            this.cube14.Location = new System.Drawing.Point(200, 689);
+            this.cube14.Margin = new System.Windows.Forms.Padding(4);
             this.cube14.Name = "cube14";
-            this.cube14.Size = new System.Drawing.Size(100, 100);
+            this.cube14.Size = new System.Drawing.Size(133, 123);
             this.cube14.TabIndex = 52;
             this.cube14.TabStop = false;
             // 
             // cube13
             // 
             this.cube13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube13.Location = new System.Drawing.Point(30, 560);
+            this.cube13.Location = new System.Drawing.Point(40, 689);
+            this.cube13.Margin = new System.Windows.Forms.Padding(4);
             this.cube13.Name = "cube13";
-            this.cube13.Size = new System.Drawing.Size(100, 100);
+            this.cube13.Size = new System.Drawing.Size(133, 123);
             this.cube13.TabIndex = 51;
             this.cube13.TabStop = false;
             // 
             // cube12
             // 
             this.cube12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube12.Location = new System.Drawing.Point(390, 440);
+            this.cube12.Location = new System.Drawing.Point(520, 542);
+            this.cube12.Margin = new System.Windows.Forms.Padding(4);
             this.cube12.Name = "cube12";
-            this.cube12.Size = new System.Drawing.Size(100, 100);
+            this.cube12.Size = new System.Drawing.Size(133, 123);
             this.cube12.TabIndex = 50;
             this.cube12.TabStop = false;
             // 
             // cube11
             // 
             this.cube11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube11.Location = new System.Drawing.Point(270, 440);
+            this.cube11.Location = new System.Drawing.Point(360, 542);
+            this.cube11.Margin = new System.Windows.Forms.Padding(4);
             this.cube11.Name = "cube11";
-            this.cube11.Size = new System.Drawing.Size(100, 100);
+            this.cube11.Size = new System.Drawing.Size(133, 123);
             this.cube11.TabIndex = 49;
             this.cube11.TabStop = false;
             // 
             // cube10
             // 
             this.cube10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube10.Location = new System.Drawing.Point(150, 440);
+            this.cube10.Location = new System.Drawing.Point(200, 542);
+            this.cube10.Margin = new System.Windows.Forms.Padding(4);
             this.cube10.Name = "cube10";
-            this.cube10.Size = new System.Drawing.Size(100, 100);
+            this.cube10.Size = new System.Drawing.Size(133, 123);
             this.cube10.TabIndex = 48;
             this.cube10.TabStop = false;
             // 
             // cube9
             // 
             this.cube9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube9.Location = new System.Drawing.Point(30, 440);
+            this.cube9.Location = new System.Drawing.Point(40, 542);
+            this.cube9.Margin = new System.Windows.Forms.Padding(4);
             this.cube9.Name = "cube9";
-            this.cube9.Size = new System.Drawing.Size(100, 100);
+            this.cube9.Size = new System.Drawing.Size(133, 123);
             this.cube9.TabIndex = 47;
             this.cube9.TabStop = false;
             // 
             // cube8
             // 
             this.cube8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube8.Location = new System.Drawing.Point(390, 320);
+            this.cube8.Location = new System.Drawing.Point(520, 394);
+            this.cube8.Margin = new System.Windows.Forms.Padding(4);
             this.cube8.Name = "cube8";
-            this.cube8.Size = new System.Drawing.Size(100, 100);
+            this.cube8.Size = new System.Drawing.Size(133, 123);
             this.cube8.TabIndex = 46;
             this.cube8.TabStop = false;
             // 
             // cube7
             // 
             this.cube7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube7.Location = new System.Drawing.Point(270, 320);
+            this.cube7.Location = new System.Drawing.Point(360, 394);
+            this.cube7.Margin = new System.Windows.Forms.Padding(4);
             this.cube7.Name = "cube7";
-            this.cube7.Size = new System.Drawing.Size(100, 100);
+            this.cube7.Size = new System.Drawing.Size(133, 123);
             this.cube7.TabIndex = 45;
             this.cube7.TabStop = false;
             // 
             // cube6
             // 
             this.cube6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube6.Location = new System.Drawing.Point(150, 320);
+            this.cube6.Location = new System.Drawing.Point(200, 394);
+            this.cube6.Margin = new System.Windows.Forms.Padding(4);
             this.cube6.Name = "cube6";
-            this.cube6.Size = new System.Drawing.Size(100, 100);
+            this.cube6.Size = new System.Drawing.Size(133, 123);
             this.cube6.TabIndex = 44;
             this.cube6.TabStop = false;
             // 
             // cube5
             // 
             this.cube5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube5.Location = new System.Drawing.Point(30, 320);
+            this.cube5.Location = new System.Drawing.Point(40, 394);
+            this.cube5.Margin = new System.Windows.Forms.Padding(4);
             this.cube5.Name = "cube5";
-            this.cube5.Size = new System.Drawing.Size(100, 100);
+            this.cube5.Size = new System.Drawing.Size(133, 123);
             this.cube5.TabIndex = 43;
             this.cube5.TabStop = false;
             // 
             // cube4
             // 
             this.cube4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube4.Location = new System.Drawing.Point(390, 200);
+            this.cube4.Location = new System.Drawing.Point(520, 246);
+            this.cube4.Margin = new System.Windows.Forms.Padding(4);
             this.cube4.Name = "cube4";
-            this.cube4.Size = new System.Drawing.Size(100, 100);
+            this.cube4.Size = new System.Drawing.Size(133, 123);
             this.cube4.TabIndex = 42;
             this.cube4.TabStop = false;
             // 
             // cube3
             // 
             this.cube3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube3.Location = new System.Drawing.Point(270, 200);
+            this.cube3.Location = new System.Drawing.Point(360, 246);
+            this.cube3.Margin = new System.Windows.Forms.Padding(4);
             this.cube3.Name = "cube3";
-            this.cube3.Size = new System.Drawing.Size(100, 100);
+            this.cube3.Size = new System.Drawing.Size(133, 123);
             this.cube3.TabIndex = 41;
             this.cube3.TabStop = false;
             // 
             // cube2
             // 
             this.cube2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(192)))), ((int)(((byte)(180)))));
-            this.cube2.Location = new System.Drawing.Point(150, 200);
+            this.cube2.Location = new System.Drawing.Point(200, 246);
+            this.cube2.Margin = new System.Windows.Forms.Padding(4);
             this.cube2.Name = "cube2";
-            this.cube2.Size = new System.Drawing.Size(100, 100);
+            this.cube2.Size = new System.Drawing.Size(133, 123);
             this.cube2.TabIndex = 40;
             this.cube2.TabStop = false;
             // 
             // background
             // 
             this.background.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(173)))), ((int)(((byte)(160)))));
-            this.background.Location = new System.Drawing.Point(15, 185);
+            this.background.Location = new System.Drawing.Point(20, 228);
+            this.background.Margin = new System.Windows.Forms.Padding(4);
             this.background.Name = "background";
-            this.background.Size = new System.Drawing.Size(490, 490);
+            this.background.Size = new System.Drawing.Size(653, 603);
             this.background.TabIndex = 57;
             this.background.TabStop = false;
             // 
@@ -246,9 +266,10 @@
             this.backOfScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(110)))), ((int)(((byte)(102)))));
             this.backOfScore.Controls.Add(this.bestScore);
             this.backOfScore.Controls.Add(this.textScore);
-            this.backOfScore.Location = new System.Drawing.Point(284, 22);
+            this.backOfScore.Location = new System.Drawing.Point(379, 27);
+            this.backOfScore.Margin = new System.Windows.Forms.Padding(4);
             this.backOfScore.Name = "backOfScore";
-            this.backOfScore.Size = new System.Drawing.Size(221, 100);
+            this.backOfScore.Size = new System.Drawing.Size(295, 123);
             this.backOfScore.TabIndex = 58;
             // 
             // bestScore
@@ -256,29 +277,32 @@
             this.bestScore.AutoSize = true;
             this.bestScore.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bestScore.ForeColor = System.Drawing.Color.White;
-            this.bestScore.Location = new System.Drawing.Point(19, 58);
+            this.bestScore.Location = new System.Drawing.Point(25, 71);
+            this.bestScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bestScore.Name = "bestScore";
-            this.bestScore.Size = new System.Drawing.Size(139, 22);
+            this.bestScore.Size = new System.Drawing.Size(139, 27);
             this.bestScore.TabIndex = 2;
-            this.bestScore.Text = "Лучший счет: 0";
+            this.bestScore.Text = "Best score: 0";
             // 
             // textScore
             // 
             this.textScore.AutoSize = true;
             this.textScore.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textScore.ForeColor = System.Drawing.Color.White;
-            this.textScore.Location = new System.Drawing.Point(19, 16);
+            this.textScore.Location = new System.Drawing.Point(25, 20);
+            this.textScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.textScore.Name = "textScore";
-            this.textScore.Size = new System.Drawing.Size(145, 22);
+            this.textScore.Size = new System.Drawing.Size(170, 27);
             this.textScore.TabIndex = 0;
-            this.textScore.Text = "Текущий счет: 0";
+            this.textScore.Text = "Current score: 0";
+            this.textScore.Click += new System.EventHandler(this.textScore_Click);
             // 
             // PlayGround
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(248)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(522, 694);
+            this.ClientSize = new System.Drawing.Size(696, 854);
             this.Controls.Add(this.backOfScore);
             this.Controls.Add(this.target2);
             this.Controls.Add(this.target1);
@@ -301,11 +325,13 @@
             this.Controls.Add(this.background);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "PlayGround";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlayGround_FormClosing);
+            this.Load += new System.EventHandler(this.PlayGround_Load);
             ((System.ComponentModel.ISupportInitialize)(this.target1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cube1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cube16)).EndInit();

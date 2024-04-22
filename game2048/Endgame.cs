@@ -44,5 +44,15 @@ namespace game2048 {
             pg = new PlayGround(m);
             pg.Show();
         }
+
+        private void labelMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Endgame_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
