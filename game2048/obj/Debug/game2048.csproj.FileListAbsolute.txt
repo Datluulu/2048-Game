@@ -34,3 +34,15 @@ D:\game2048\game2048\obj\Debug\game2048.csproj.GenerateResource.cache
 D:\game2048\game2048\obj\Debug\game2048.csproj.CoreCompileInputs.cache
 D:\game2048\game2048\obj\Debug\game2048.exe
 D:\game2048\game2048\obj\Debug\game2048.pdb
+C:\Users\dathe\Source\Repos\2048-Game\game2048\bin\Debug\game2048.exe.config
+C:\Users\dathe\Source\Repos\2048-Game\game2048\bin\Debug\game2048.exe
+C:\Users\dathe\Source\Repos\2048-Game\game2048\bin\Debug\game2048.pdb
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.csproj.AssemblyReference.cache
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.Endgame.resources
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.Menu.resources
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.PlayGround.resources
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.Properties.Resources.resources
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.csproj.GenerateResource.cache
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.csproj.CoreCompileInputs.cache
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.exe
+C:\Users\dathe\Source\Repos\2048-Game\game2048\obj\Debug\game2048.pdb

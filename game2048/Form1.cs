@@ -55,13 +55,18 @@ namespace game2048 {
             if (switcher) {
                 switcher = false;
                 soundButton.BackColor = System.Drawing.Color.Red;
-                soundButton.Text = "Звук выкл.";
+                soundButton.Text = "🔇";
             }
             else {
                 switcher = true;
                 soundButton.BackColor = System.Drawing.Color.Green;
-                soundButton.Text = "Звук вкл.";
+                soundButton.Text = "🔈";
             }
+        }
+
+        private void labelMenu_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
